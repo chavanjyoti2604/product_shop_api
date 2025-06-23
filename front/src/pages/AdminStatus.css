@@ -1,0 +1,91 @@
+.admin-status {
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 25px 30px;
+  background: #fff;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.admin-status.loading,
+.admin-status.error {
+  text-align: center;
+  font-size: 18px;
+  padding: 40px;
+  color: #777;
+}
+
+.admin-status.error {
+  color: #b00020;
+}
+
+.admin-status__title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #222;
+  letter-spacing: 0.02em;
+}
+
+.admin-status__info > div {
+  margin: 12px 0;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 6px;
+}
+
+.admin-status__info strong {
+  color: #555;
+}
+
+.status-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.status-badge {
+  padding: 5px 15px;
+  font-weight: 600;
+  border-radius: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  min-width: 100px;
+  text-align: center;
+  user-select: none;
+}
+
+.status-approved {
+  background-color: #4caf50; /* Green */
+  box-shadow: 0 0 8px #4caf5080;
+}
+
+.status-pending {
+  background-color: #ff9800; /* Orange */
+  box-shadow: 0 0 8px #ff980080;
+}
+
+.status-suspended {
+  background-color: #f44336; /* Red */
+  box-shadow: 0 0 8px #f4433680;
+}
+
+.admin-status__warning {
+  margin-top: 25px;
+  background-color: #fff3cd;
+  border-left: 6px solid #ffeeba;
+  padding: 15px 20px;
+  border-radius: 6px;
+  color: #856404;
+  font-size: 16px;
+  line-height: 1.4;
+  user-select: none;
+}

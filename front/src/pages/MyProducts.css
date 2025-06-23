@@ -1,0 +1,35 @@
+.product-list {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #fefefe;
+  border-radius: 10px;
+}
+
+.product-list h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.product-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-list li {
+  background-color: #ffffff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+.product-list li strong {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.product-list li small {
+  color: #555;
+}

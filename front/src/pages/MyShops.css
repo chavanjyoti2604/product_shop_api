@@ -1,0 +1,25 @@
+.shop-list {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+.shop-list h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.shop-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.shop-list li {
+  background-color: white;
+  padding: 1rem;
+  margin-bottom: 0.8rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+}

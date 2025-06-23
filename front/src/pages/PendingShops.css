@@ -1,0 +1,42 @@
+.pending-shops-container {
+  padding: 2rem;
+  background-color: #fff8f5;
+  min-height: 100vh;
+}
+
+.shop-list {
+  list-style: none;
+  padding: 0;
+}
+
+.shop-item {
+  background-color: #ffffff;
+  margin: 1rem 0;
+  padding: 1.2rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(255, 87, 34, 0.1);
+  border-left: 5px solid #ff5722;
+}
+
+.shop-item h3 {
+  margin: 0 0 0.5rem;
+}
+
+.shop-item p {
+  margin: 0;
+  color: #555;
+}
+
+.approve-button {
+  margin-top: 0.75rem;
+  padding: 0.5rem 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.approve-button:hover {
+  background-color: #218838;
+}

@@ -1,0 +1,59 @@
+.pending-admins-container {
+  padding: 2rem;
+  background-color: #f9fafb; /* softer than pure white */
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  color: #33475b;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.p-datatable {
+  box-shadow: 0 6px 15px rgba(50, 50, 93, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  background: white;
+}
+
+.p-datatable-thead > tr > th {
+  background-color: #4f46e5; /* Indigo-600 */
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+
+.p-datatable-tbody > tr:hover {
+  background-color: #eef2ff; /* Light Indigo */
+  cursor: pointer;
+}
+
+.p-button-rounded {
+  font-weight: 600;
+  font-size: 0.875rem;
+  box-shadow: 0 2px 5px rgba(72, 88, 140, 0.15);
+}
+
+.p-button-success {
+  background-color: #22c55e; /* Emerald green */
+  border: none;
+}
+
+.p-button-success:hover {
+  background-color: #16a34a; /* darker emerald */
+}
+
+.p-datatable-paginator {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 1rem;
+}
+
+.p-datatable-empty-message {
+  font-style: italic;
+  color: #6b7280; /* gray-500 */
+  text-align: center;
+  padding: 2rem 0;
+}

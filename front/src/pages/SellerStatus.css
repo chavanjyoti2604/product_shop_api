@@ -1,0 +1,88 @@
+.seller-status-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 70px);
+  background-color: #f9fbfd;
+  padding: 2rem;
+}
+
+.profile-card {
+  background-color: white;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+  max-width: 500px;
+  width: 100%;
+}
+
+.profile-card h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+.profile-field {
+  margin-bottom: 1.25rem;
+}
+
+.profile-field label {
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+  display: block;
+  color: #444;
+}
+
+.profile-field p,
+.profile-field input {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+.profile-field p {
+  background-color: #f3f6fa;
+}
+
+.profile-card button {
+  margin-top: 1.5rem;
+  width: 100%;
+  padding: 0.85rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: #3b82f6;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.profile-card button:hover {
+  background-color: #2563eb;
+}
+
+/* Status box styling */
+.status-box {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  border-radius: 6px;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+  min-width: 120px;
+}
+
+.status-approved {
+  background-color: #22c55e; /* green */
+  box-shadow: 0 0 8px #22c55e88;
+}
+
+.status-pending {
+  background-color: #ef4444; /* red */
+  box-shadow: 0 0 8px #ef444488;
+}
